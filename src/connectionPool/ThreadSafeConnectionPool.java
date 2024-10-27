@@ -132,6 +132,7 @@ public class ThreadSafeConnectionPool {
                     }
                 }
             }
+
         } finally {
             poolLock.unlock();
         }
